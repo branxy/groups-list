@@ -1,0 +1,124 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 40px 0;
+  --grey: rgba(91, 91, 91, 0.8);
+}
+
+.groups-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 18px;
+}
+
+.filters .select {
+  flex: 1 0 auto;
+}
+
+.select {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.group {
+  border: 1px solid var(--grey);
+  border-radius: 8px;
+  width: 400px;
+  display: flex;
+  gap: 12px;
+  padding: 4px 8px;
+}
+
+.group .avatar {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--grey);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group .info {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group .heading {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.group .followers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  color: #818c99;
+}
+
+.group .friends {
+  flex: 1 0 auto;
+  padding-top: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.group #open-friends {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5c9ce6;
+  font-weight: 600;
+}
+
+.group #open-friends:hover {
+  outline: 1px solid;
+  border-radius: 6px;
+}
+
+.groups .friends .svg {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.friends .friends-list {
+  background-color: white;
+  border: 1px solid;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: rgb(82, 82, 82);
+}
+
+.friends-list span {
+  flex: 2 0 auto;
+  min-width: fit-content;
+}

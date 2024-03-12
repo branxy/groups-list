@@ -1,0 +1,15 @@
+id,name,closed,avatar_color,members_count,friends
+2,Собачки,false,green,147,
+5,Мишки,true,red,4,
+8,Зайки,false,white,777,
+14,Птички,true,blue,23,
+10,Утконосы,true,,0,
+1,Котики,false,red,457,"[{""last_name"":""Петрова"",""first_name"":""Маша""},{""last_name"":""Агапов"",""first_name"":""Фёдор""},{""last_name"":""Петрова"",""first_name"":""Вера""}]"
+3,Бабочки,true,yellow,2,"[{""last_name"":""Гончаров"",""first_name"":""Василий""}]"
+4,Утята,false,blue,88,"[{""last_name"":""Пивоварова"",""first_name"":""Маша""},{""last_name"":""Кот"",""first_name"":""Илья""}]"
+6,Улитки,true,,99,"[{""last_name"":""Петрова"",""first_name"":""Маша""}]"
+7,Выдры,false,purple,5,"[{""last_name"":""Харитонова"",""first_name"":""Ирина""},{""last_name"":""Самсонов"",""first_name"":""Владислав""},{""last_name"":""Антонов"",""first_name"":""Сергей""}]"
+9,Кролики,true,yellow,8,"[{""last_name"":""Елец"",""first_name"":""Даша""}]"
+11,Куропатки,false,red,33,"[{""last_name"":""Петрова"",""first_name"":""Зоя""},{""last_name"":""Зайцева"",""first_name"":""Марфа""}]"
+12,Козлики,false,,7,"[{""last_name"":""Самсонова"",""first_name"":""Катя""}]"
+13,Тигры,false,orange,11,"[{""last_name"":""Лещенко"",""first_name"":""Лев""},{""last_name"":""Бондарчук"",""first_name"":""Фёдор""},{""last_name"":""Брежнева"",""first_name"":""Вера""}]"
